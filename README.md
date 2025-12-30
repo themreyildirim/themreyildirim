@@ -1,4 +1,21 @@
-![Header](https://capsule-render.vercel.app/api?type=waving&color=auto&height=250&section=header&text=Emre%20Yıldırım&fontSize=70&animation=fadeIn&fontAlignY=35&desc=Industrial%20Engineering%20Student%20|%20Data%20Scientist&descSize=20&descAlignY=60)
+<!-- 
+  TODO: Replace with actual Data Science & Industrial Engineering themed animated GIF
+  
+  Visual elements to include:
+  - Flowing data streams, glowing neural networks, abstract geometric patterns, or futuristic mechanical gears
+  - Mysterious, abstract, and dynamic atmosphere
+  - NO name text included
+  - Optional: subtle inspiring quote about data or engineering in a corner
+  
+  Once you have the GIF, upload it to the repository and use:
+  ![Data Science & Industrial Engineering Banner](path/to/your/banner.gif)
+  
+  Or use a hosted image URL:
+  ![Data Science & Industrial Engineering Banner](https://example.com/your-banner.gif)
+  
+  Remember to remove this entire TODO comment block after implementing the final GIF.
+-->
+![Data Science & Industrial Engineering Banner](https://via.placeholder.com/1200x300/0a0e27/00d4ff?text=Data+Science+%26+Industrial+Engineering)
 
 ## 👋 Hi there! I'm Emre Yıldırım
 
