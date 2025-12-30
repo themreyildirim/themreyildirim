@@ -29,7 +29,7 @@ I am an **Industrial Engineering** student at **Istanbul Technical University (I
 ### 🏆 GitHub Trophies
 <p align="left">
   <a href="https://github.com/ryo-ma/github-profile-trophy">
-    <img src="https://github-profile-trophy.vercel.app/?username=themreyildirim&theme=tokyonight&no-bg=true&margin-w=15" alt="themreyildirim trophies" />
+    <img src="https://github-profile-trophy.vercel.app/?username=themreyildirim&theme=darkhub&no-bg=true" alt="themreyildirim trophies" />
   </a>
 </p>
 
