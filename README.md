@@ -22,6 +22,7 @@ I am an **Industrial Engineering** student at **Istanbul Technical University (I
 
 ### 📈 GitHub Activities
 <p align="left">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=themreyildirim&theme=dark" alt="GitHub Stats Summary" height="170" />
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=themreyildirim&theme=dark" alt="Most Used Languages" height="170" />
 </p>
 
