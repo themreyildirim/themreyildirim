@@ -22,9 +22,9 @@ I am an **Industrial Engineering** student at **Istanbul Technical University (I
 
 ### 📈 GitHub Stats
 <p align="left">
-<img src="https://github-readme-stats.vercel.app/api?username=themreyildirim&show_icons=true&theme=radical" alt="Emre's GitHub stats" />
+<img src="https://github-readme-stats.vercel.app/api?username=themreyildirim&show_icons=true&theme=dark" alt="Emre's GitHub stats" height="170" />
 <br/>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=themreyildirim&layout=compact&theme=radical" alt="Top Langs" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=themreyildirim&layout=compact&theme=dark" alt="Top Langs" height="170" />
 </p>
 
 ### 📫 Let's Connect
