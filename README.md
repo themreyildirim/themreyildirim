@@ -22,7 +22,7 @@ I am an **Industrial Engineering** student at **Istanbul Technical University (I
 
 ### 📈 GitHub Activities
 <p align="left">
-  <img src="https://streak-stats.demolab.com/?user=themreyildirim&theme=dark&hide_border=true" alt="GitHub Streak" height="170" />
+  <img src="https://streak-stats.demolab.com/?user=themreyildirim&theme=tokyonight&hide_border=true&v=2" alt="GitHub Streak" height="170" />
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=themreyildirim&theme=dark" alt="Most Used Languages" height="170" />
 </p>
 
