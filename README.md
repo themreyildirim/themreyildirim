@@ -1,4 +1,4 @@
-![Data Science & Engineering Banner](https://capsule-render.vercel.app/api?type=waving&color=0:000000,50:0a192f,100:001a33&height=300&section=header&text=&stroke=00FF41&strokeWidth=2)
+![Data Science & Engineering Banner](./header-banner.svg)
 
 ## 👋 Hi there! I'm Emre Yıldırım
 

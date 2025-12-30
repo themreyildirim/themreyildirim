@@ -1,0 +1,212 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3200 800" style="background: linear-gradient(135deg, #0a0a0a 0%, #1a1a2e 50%, #0a0a0a 100%);">
+  <defs>
+    <!-- Glow filters -->
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="4" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="strongGlow">
+      <feGaussianBlur stdDeviation="8" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="softGlow">
+      <feGaussianBlur stdDeviation="2" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    
+    <!-- Gradients -->
+    <linearGradient id="neonBlue" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#00d4ff;stop-opacity:0.8" />
+      <stop offset="100%" style="stop-color:#0099ff;stop-opacity:0.4" />
+    </linearGradient>
+    <linearGradient id="neonCyan" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#00ffcc;stop-opacity:0.7" />
+      <stop offset="100%" style="stop-color:#00ccaa;stop-opacity:0.3" />
+    </linearGradient>
+    <linearGradient id="neonPurple" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#a855f7;stop-opacity:0.6" />
+      <stop offset="100%" style="stop-color:#7c3aed;stop-opacity:0.3" />
+    </linearGradient>
+    <radialGradient id="centerGlow">
+      <stop offset="0%" style="stop-color:#ffffff;stop-opacity:0.05" />
+      <stop offset="100%" style="stop-color:#000000;stop-opacity:0" />
+    </radialGradient>
+  </defs>
+
+  <!-- Background gradient overlay for depth -->
+  <rect width="3200" height="800" fill="url(#centerGlow)"/>
+
+  <!-- Left section: Network graphs and data streams -->
+  <g opacity="0.6">
+    <!-- Network nodes -->
+    <circle cx="200" cy="150" r="4" fill="#00d4ff" filter="url(#glow)"/>
+    <circle cx="350" cy="200" r="3" fill="#00ffcc" filter="url(#glow)"/>
+    <circle cx="280" cy="280" r="5" fill="#0099ff" filter="url(#glow)"/>
+    <circle cx="450" cy="320" r="3" fill="#00d4ff" filter="url(#glow)"/>
+    <circle cx="180" cy="380" r="4" fill="#00ccaa" filter="url(#glow)"/>
+    <circle cx="320" cy="450" r="3" fill="#00ffcc" filter="url(#glow)"/>
+    <circle cx="500" cy="500" r="4" fill="#0099ff" filter="url(#glow)"/>
+    
+    <!-- Network connections -->
+    <line x1="200" y1="150" x2="350" y2="200" stroke="url(#neonBlue)" stroke-width="1" opacity="0.4" filter="url(#softGlow)"/>
+    <line x1="350" y1="200" x2="280" y2="280" stroke="url(#neonCyan)" stroke-width="1" opacity="0.4" filter="url(#softGlow)"/>
+    <line x1="280" y1="280" x2="450" y2="320" stroke="url(#neonBlue)" stroke-width="1" opacity="0.4" filter="url(#softGlow)"/>
+    <line x1="450" y1="320" x2="320" y2="450" stroke="url(#neonCyan)" stroke-width="1" opacity="0.4" filter="url(#softGlow)"/>
+    <line x1="180" y1="380" x2="320" y2="450" stroke="url(#neonBlue)" stroke-width="1" opacity="0.4" filter="url(#softGlow)"/>
+    <line x1="320" y1="450" x2="500" y2="500" stroke="url(#neonCyan)" stroke-width="1" opacity="0.4" filter="url(#softGlow)"/>
+    <line x1="200" y1="150" x2="280" y2="280" stroke="url(#neonBlue)" stroke-width="1" opacity="0.3" filter="url(#softGlow)"/>
+    <line x1="350" y1="200" x2="450" y2="320" stroke="url(#neonCyan)" stroke-width="1" opacity="0.3" filter="url(#softGlow)"/>
+  </g>
+
+  <!-- Left bottom: Circuit traces -->
+  <g opacity="0.5">
+    <path d="M 50 550 L 150 550 L 150 620 L 250 620" stroke="#00d4ff" stroke-width="2" fill="none" filter="url(#softGlow)"/>
+    <path d="M 250 620 L 350 620 L 350 680" stroke="#00d4ff" stroke-width="2" fill="none" filter="url(#softGlow)"/>
+    <path d="M 100 680 L 200 680 L 200 600 L 300 600" stroke="#00ffcc" stroke-width="1.5" fill="none" filter="url(#softGlow)"/>
+    <circle cx="150" cy="550" r="3" fill="#00d4ff" filter="url(#glow)"/>
+    <circle cx="150" cy="620" r="3" fill="#00d4ff" filter="url(#glow)"/>
+    <circle cx="250" cy="620" r="3" fill="#00d4ff" filter="url(#glow)"/>
+    <circle cx="200" cy="680" r="2.5" fill="#00ffcc" filter="url(#glow)"/>
+    <circle cx="200" cy="600" r="2.5" fill="#00ffcc" filter="url(#glow)"/>
+  </g>
+
+  <!-- Right section: Waveforms and data visualization -->
+  <g opacity="0.5">
+    <!-- Waveform 1 -->
+    <path d="M 2600 200 Q 2650 150, 2700 200 T 2800 200 T 2900 200 T 3000 200" 
+          stroke="#00d4ff" stroke-width="2" fill="none" filter="url(#softGlow)"/>
+    <!-- Waveform 2 -->
+    <path d="M 2600 280 Q 2650 320, 2700 280 T 2800 280 T 2900 280 T 3000 280" 
+          stroke="#00ffcc" stroke-width="1.5" fill="none" filter="url(#softGlow)"/>
+    <!-- Waveform 3 -->
+    <path d="M 2600 360 Q 2650 380, 2700 360 T 2800 360 T 2900 360 T 3000 360" 
+          stroke="#a855f7" stroke-width="1.5" fill="none" filter="url(#softGlow)"/>
+  </g>
+
+  <!-- Right bottom: Data bars and metrics -->
+  <g opacity="0.5">
+    <rect x="2700" y="580" width="30" height="80" fill="url(#neonBlue)" filter="url(#softGlow)"/>
+    <rect x="2750" y="540" width="30" height="120" fill="url(#neonCyan)" filter="url(#softGlow)"/>
+    <rect x="2800" y="600" width="30" height="60" fill="url(#neonPurple)" filter="url(#softGlow)"/>
+    <rect x="2850" y="520" width="30" height="140" fill="url(#neonBlue)" filter="url(#softGlow)"/>
+    <rect x="2900" y="570" width="30" height="90" fill="url(#neonCyan)" filter="url(#softGlow)"/>
+  </g>
+
+  <!-- Top right: CAD blueprint lines -->
+  <g opacity="0.4" stroke="#00d4ff" stroke-width="1" fill="none">
+    <line x1="2800" y1="80" x2="3100" y2="80" filter="url(#softGlow)"/>
+    <line x1="2800" y1="100" x2="3100" y2="100" stroke-dasharray="10,5" filter="url(#softGlow)"/>
+    <line x1="2850" y1="80" x2="2850" y2="150" filter="url(#softGlow)"/>
+    <line x1="3050" y1="80" x2="3050" y2="150" filter="url(#softGlow)"/>
+    <circle cx="2850" cy="115" r="20" stroke="#00ffcc" stroke-width="1.5" filter="url(#softGlow)"/>
+    <circle cx="3050" cy="115" r="15" stroke="#00d4ff" stroke-width="1" filter="url(#softGlow)"/>
+  </g>
+
+  <!-- Center left: Airfoil/turbine contour -->
+  <g opacity="0.5">
+    <path d="M 700 350 Q 850 320, 1000 350 Q 1050 380, 1000 410 Q 850 440, 700 410 Z" 
+          stroke="#00ffcc" stroke-width="2" fill="none" filter="url(#softGlow)"/>
+    <ellipse cx="850" cy="380" rx="120" ry="40" 
+             stroke="#00d4ff" stroke-width="1" fill="none" opacity="0.6" filter="url(#softGlow)"/>
+  </g>
+
+  <!-- Center right: Mechanical schematic elements -->
+  <g opacity="0.5">
+    <circle cx="2300" cy="400" r="60" stroke="#00d4ff" stroke-width="2" fill="none" filter="url(#softGlow)"/>
+    <circle cx="2300" cy="400" r="45" stroke="#00ffcc" stroke-width="1.5" fill="none" filter="url(#softGlow)"/>
+    <line x1="2270" y1="400" x2="2330" y2="400" stroke="#a855f7" stroke-width="2" filter="url(#softGlow)"/>
+    <line x1="2300" y1="370" x2="2300" y2="430" stroke="#a855f7" stroke-width="2" filter="url(#softGlow)"/>
+    <path d="M 2300 340 L 2320 365 L 2280 365 Z" stroke="#00d4ff" stroke-width="1.5" fill="none" filter="url(#softGlow)"/>
+    <path d="M 2300 460 L 2280 435 L 2320 435 Z" stroke="#00d4ff" stroke-width="1.5" fill="none" filter="url(#softGlow)"/>
+  </g>
+
+  <!-- Top left: Data streams -->
+  <g opacity="0.4">
+    <path d="M 100 100 Q 200 120, 300 100 Q 400 80, 500 100 Q 600 120, 700 100" 
+          stroke="url(#neonCyan)" stroke-width="1" fill="none" stroke-dasharray="5,3" filter="url(#softGlow)"/>
+    <path d="M 100 140 Q 200 160, 300 140 Q 400 120, 500 140 Q 600 160, 700 140" 
+          stroke="url(#neonBlue)" stroke-width="1" fill="none" stroke-dasharray="5,3" filter="url(#softGlow)"/>
+  </g>
+
+  <!-- Bottom center: Grid pattern -->
+  <g opacity="0.3" stroke="#00d4ff" stroke-width="0.5">
+    <line x1="1200" y1="650" x2="2000" y2="650" filter="url(#softGlow)"/>
+    <line x1="1200" y1="680" x2="2000" y2="680" filter="url(#softGlow)"/>
+    <line x1="1200" y1="710" x2="2000" y2="710" filter="url(#softGlow)"/>
+    <line x1="1300" y1="630" x2="1300" y2="730" filter="url(#softGlow)"/>
+    <line x1="1500" y1="630" x2="1500" y2="730" filter="url(#softGlow)"/>
+    <line x1="1700" y1="630" x2="1700" y2="730" filter="url(#softGlow)"/>
+    <line x1="1900" y1="630" x2="1900" y2="730" filter="url(#softGlow)"/>
+  </g>
+
+  <!-- Additional flowing network in upper right -->
+  <g opacity="0.5">
+    <circle cx="2400" cy="180" r="3" fill="#a855f7" filter="url(#glow)"/>
+    <circle cx="2500" cy="140" r="4" fill="#00d4ff" filter="url(#glow)"/>
+    <circle cx="2550" cy="220" r="3" fill="#00ffcc" filter="url(#glow)"/>
+    <circle cx="2650" cy="170" r="4" fill="#0099ff" filter="url(#glow)"/>
+    <line x1="2400" y1="180" x2="2500" y2="140" stroke="url(#neonPurple)" stroke-width="1" opacity="0.5" filter="url(#softGlow)"/>
+    <line x1="2500" y1="140" x2="2650" y2="170" stroke="url(#neonBlue)" stroke-width="1" opacity="0.5" filter="url(#softGlow)"/>
+    <line x1="2400" y1="180" x2="2550" y2="220" stroke="url(#neonCyan)" stroke-width="1" opacity="0.5" filter="url(#softGlow)"/>
+    <line x1="2550" y1="220" x2="2650" y2="170" stroke="url(#neonBlue)" stroke-width="1" opacity="0.5" filter="url(#softGlow)"/>
+  </g>
+
+  <!-- Lower left: Additional circuit elements -->
+  <g opacity="0.4">
+    <rect x="400" y="600" width="40" height="40" stroke="#00ffcc" stroke-width="1.5" fill="none" filter="url(#softGlow)"/>
+    <circle cx="420" cy="620" r="15" stroke="#00d4ff" stroke-width="1" fill="none" filter="url(#softGlow)"/>
+    <line x1="440" y1="600" x2="480" y2="580" stroke="#a855f7" stroke-width="1.5" filter="url(#softGlow)"/>
+    <line x1="480" y1="580" x2="550" y2="580" stroke="#a855f7" stroke-width="1.5" filter="url(#softGlow)"/>
+  </g>
+
+  <!-- Subtle accent lines for depth -->
+  <g opacity="0.2">
+    <line x1="0" y1="400" x2="800" y2="400" stroke="#00d4ff" stroke-width="0.5" stroke-dasharray="2,4"/>
+    <line x1="2400" y1="400" x2="3200" y2="400" stroke="#00ffcc" stroke-width="0.5" stroke-dasharray="2,4"/>
+  </g>
+
+  <!-- Hexagonal data node pattern top center -->
+  <g opacity="0.5">
+    <path d="M 1550 180 L 1570 170 L 1590 180 L 1590 200 L 1570 210 L 1550 200 Z" 
+          stroke="#00d4ff" stroke-width="1.5" fill="none" filter="url(#softGlow)"/>
+    <path d="M 1680 180 L 1700 170 L 1720 180 L 1720 200 L 1700 210 L 1680 200 Z" 
+          stroke="#00ffcc" stroke-width="1.5" fill="none" filter="url(#softGlow)"/>
+    <circle cx="1570" cy="190" r="2" fill="#00d4ff" filter="url(#glow)"/>
+    <circle cx="1700" cy="190" r="2" fill="#00ffcc" filter="url(#glow)"/>
+    <line x1="1590" y1="190" x2="1680" y2="190" stroke="#a855f7" stroke-width="1" opacity="0.6" filter="url(#softGlow)"/>
+  </g>
+
+  <!-- Additional waveform bottom right -->
+  <g opacity="0.4">
+    <path d="M 2550 700 Q 2600 680, 2650 700 Q 2700 720, 2750 700 Q 2800 680, 2850 700 Q 2900 720, 2950 700" 
+          stroke="#a855f7" stroke-width="1.5" fill="none" filter="url(#softGlow)"/>
+  </g>
+
+  <!-- Particle-like dots for data streams -->
+  <g opacity="0.6">
+    <circle cx="250" cy="100" r="1.5" fill="#00d4ff" filter="url(#glow)"/>
+    <circle cx="380" cy="120" r="1.5" fill="#00ffcc" filter="url(#glow)"/>
+    <circle cx="520" cy="90" r="1.5" fill="#00d4ff" filter="url(#glow)"/>
+    <circle cx="650" cy="110" r="1.5" fill="#00ffcc" filter="url(#glow)"/>
+    <circle cx="2200" cy="720" r="1.5" fill="#a855f7" filter="url(#glow)"/>
+    <circle cx="2350" cy="710" r="1.5" fill="#00d4ff" filter="url(#glow)"/>
+    <circle cx="2500" cy="720" r="1.5" fill="#00ffcc" filter="url(#glow)"/>
+  </g>
+
+  <!-- Corner accent elements -->
+  <g opacity="0.3">
+    <line x1="50" y1="50" x2="150" y2="50" stroke="#00d4ff" stroke-width="1" filter="url(#softGlow)"/>
+    <line x1="50" y1="50" x2="50" y2="150" stroke="#00d4ff" stroke-width="1" filter="url(#softGlow)"/>
+    <line x1="3050" y1="750" x2="3150" y2="750" stroke="#00ffcc" stroke-width="1" filter="url(#softGlow)"/>
+    <line x1="3150" y1="650" x2="3150" y2="750" stroke="#00ffcc" stroke-width="1" filter="url(#softGlow)"/>
+  </g>
+</svg>
