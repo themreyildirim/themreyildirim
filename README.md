@@ -20,10 +20,8 @@ I am an **Industrial Engineering** student at **Istanbul Technical University (I
 ### 💼 Experience
 - **Intertech Internship**: Gained hands-on experience with **Agile-Scrum** methodologies and contributed to **Chatbot development** projects.
 
-### 📊 GitHub Stats
-
+### 📈 GitHub Stats
 ![Emre's GitHub stats](https://github-readme-stats.vercel.app/api?username=themreyildirim&show_icons=true&theme=dark)
-
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=themreyildirim&layout=compact&theme=dark)
 
 ### 📫 Let's Connect
