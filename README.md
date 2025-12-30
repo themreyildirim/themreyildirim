@@ -1,3 +1,7 @@
+# !\[Header](https://capsule-render.vercel.app/api?type=waving\&color=auto\&height=250\&section=header\&text=Emre%20Yıldırım\&fontSize=70\&animation=fadeIn\&fontAlignY=35\&desc=Industrial%20Engineering%20Student%20|%20Data%20Scientist\&descSize=20\&descAlignY=60)
+
+
+
 # \# Hi there! I'm Emre Yıldırım 👋
 
 # 
