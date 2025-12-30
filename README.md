@@ -1,4 +1,8 @@
-![Header](https://capsule-render.vercel.app/api?type=waving&color=auto&height=250&section=header&text=Emre%20Yıldırım&fontSize=70&animation=fadeIn&fontAlignY=35&desc=Industrial%20Engineering%20Student%20|%20Data%20Scientist&descSize=20&descAlignY=60)
+<!-- Animated banner: Data Science & Industrial Engineering themed GIF -->
+<!-- The image should feature: flowing data streams, glowing neural networks, abstract geometric patterns, or futuristic mechanical gears -->
+<!-- Visual style: mysterious, abstract, and dynamic atmosphere without any name text -->
+<!-- Optional: subtle inspiring quote about data or engineering in a corner -->
+![Data Science & Industrial Engineering Banner](banner.gif)
 
 ## 👋 Hi there! I'm Emre Yıldırım
 
