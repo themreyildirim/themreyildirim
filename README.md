@@ -15,7 +15,7 @@
   
   Remember to remove this entire TODO comment block after implementing the final GIF.
 -->
-![Data Science & Industrial Engineering Banner](https://via.placeholder.com/1200x300/0a0e27/00d4ff?text=Data+Science+%26+Industrial+Engineering)
+![Mysterious Data Banner](https://capsule-render.vercel.app/api?type=waving&color=0f0c29,302b63,24243e&height=250&section=header&text=)
 
 ## 👋 Hi there! I'm Emre Yıldırım
 
