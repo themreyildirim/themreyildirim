@@ -22,8 +22,14 @@ I am an **Industrial Engineering** student at **Istanbul Technical University (I
 
 ### 📈 GitHub Activities
 <p align="left">
-  <img src="https://streak-stats.demolab.com/?user=themreyildirim&theme=tokyonight&hide_border=true&v=2" alt="GitHub Streak" height="170" />
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=themreyildirim&theme=dark" alt="Most Used Languages" height="170" />
+</p>
+
+### 🏆 GitHub Trophies
+<p align="left">
+  <a href="https://github.com/ryo-ma/github-profile-trophy">
+    <img src="https://github-profile-trophy.vercel.app/?username=themreyildirim&theme=tokyonight&no-bg=true&margin-w=15" alt="themreyildirim trophies" />
+  </a>
 </p>
 
 ### 📫 Let's Connect
