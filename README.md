@@ -12,6 +12,8 @@
   
   Or use a hosted image URL:
   ![Data Science & Industrial Engineering Banner](https://example.com/your-banner.gif)
+  
+  Remember to remove this entire TODO comment block after implementing the final GIF.
 -->
 ![Data Science & Industrial Engineering Banner](https://via.placeholder.com/1200x300/0a0e27/00d4ff?text=Data+Science+%26+Industrial+Engineering)
 
